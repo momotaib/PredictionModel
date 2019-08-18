@@ -108,7 +108,7 @@ predicted <- predict(fit, train_test)
 
 #' setting the length of my predicted function and assigning the length of a new variable to 0
 numberpredictions <- length(predicted)
-numcorrect <- 0L
+correct <- 0L
 
 #' @description this is a for loop to look through the length of my predicition test data through each length.
 #' the @if statement mesures the predicted method against the sale price and vice versa whilst incremmenting the length of 
