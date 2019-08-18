@@ -8,8 +8,8 @@ Start by installing the IDE's
 [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 
 Download R & MySQl
-1.[R](https://cran.r-project.org/bin/windows/base/)
-2.[MySQL](https://www.mysql.com/downloads/)
+1. [R](https://cran.r-project.org/bin/windows/base/)
+2. [MySQL](https://www.mysql.com/downloads/)
 
 ### Data Cleaning
 1. Start by importing the data into R through a read csv function
@@ -38,6 +38,6 @@ After this run the alogorithm with the UI
 ### Trello Board for Project
 
 ### Link to Application 
-### [My Application](
+### [My Application](http://35.246.119.178/PredictionModel/)
 1. Fill out all requested inputs for the model
 2. Click Predict and value will update
