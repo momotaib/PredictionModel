@@ -21,4 +21,4 @@ Download R & MySQl
 2. Import table into SQl database
 
 ### Install packages into R
-![Install the following:](images/installpack.jpg)
+![Install the following:](Images/installpack.jpg)
