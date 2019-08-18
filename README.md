@@ -8,8 +8,8 @@ Start by installing the IDE's
 [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 
 Download R & MySQl
-[R](https://cran.r-project.org/bin/windows/base/)
-[MySQL](https://www.mysql.com/downloads/)
+..*[R](https://cran.r-project.org/bin/windows/base/)
+..*[MySQL](https://www.mysql.com/downloads/)
 
 ### Data Cleaning
 1. Start by importing the data into R through a read csv function
@@ -25,3 +25,18 @@ Download R & MySQl
 
 ### Read dataset from SQL by connecting to it
 ![Use the following:](Images/sqlconnect.jpg)
+After this run the alogorithm with the UI
+
+### Make a GCP account
+1. Create a new account
+2. Create a VM instance
+3. Change Port to 80 in config settings from SSH
+4. Install all relative packages above
+5. Clone github repository 
+6. Dump SQL databse into files
+
+### Trello Board for Project
+
+### Link to Application ###[My Application](
+Fill out all requested inputs for the model
+Click Predict and value will update
