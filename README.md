@@ -16,8 +16,9 @@ Download R & MySQl
 2. Remove all variables which are not of entire use
 3. Write away clean data set with write csv function and new table name
 
-#### Convert csv into SQL
+### Convert csv into SQL
 1. Create a new database
 2. Import table into SQl database
 
-##### Install packages into R
+### Install packages into R
+![Install the following:](images/installpack.jpg)
