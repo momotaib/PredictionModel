@@ -22,3 +22,6 @@ Download R & MySQl
 
 ### Install packages into R
 ![Install the following:](Images/installpack.jpg)
+
+### Read dataset from SQL by connecting to it
+![Use the following:](Images/installpack.jpg)
