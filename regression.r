@@ -107,21 +107,21 @@ fit <- randomForest(SalePrice ~ ExterQual  + GarageArea + TotalBsmtSF + OverallQ
 predicted <- predict(fit, train_test)
 
 #' setting the length of my predicted function and assigning the length of a new variable to 0
-npredictions <- length(predicted)
+numberpredictions <- length(predicted)
 numcorrect <- 0L
 
 #' @description this is a for loop to look through the length of my predicition test data through each length.
 #' the @if statement mesures the predicted method against the sale price and vice versa whilst incremmenting the length of 
 #' the numcorrect value.
 for(i in 1:npredictions){
-  if(predicted[i] > train_test$SalePrice[i] * 0.9 & predicted[i] < train_test$SalePrice[i] * 1.1){
-    numcorrect <- numcorrect + 1
+  if(predicted[i] > train_test$SalePrice[i] & predicted[i] < train_test$SalePrice[i]){
+    correct <- correct + 1
   }
 }
 #' @description setting the accuracy amount through the method of dividing my new variable length 
 #' along with the exisiting predicition length and multiplying it by a 100
 #' @usage this will print out the percentage of accuracy the prediction model has
-Accuracy <- (numcorrect/ npredictions) * 100
+Accuracy <- (correct/ numberpredictions) * 100
 print(Accuracy) 
 
 
